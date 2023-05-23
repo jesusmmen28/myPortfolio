@@ -1,0 +1,56 @@
+.titleAbout {
+    margin: 20px;
+    text-align: center;
+}
+
+.articleAbout {
+    padding: 0 20px 0 20px;
+    text-align: center;
+}
+
+.pArticleAbout {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.figImgAbout {
+    display: flex;
+    justify-content: center;
+}
+
+.containerImg {
+    border-top: 2px solid #312e31;
+    border-bottom: 2px solid #312e31;
+    margin: 0 20px 0 20px;
+}
+.imgAbout {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.pAbout {
+    margin-top:20px;
+    margin-bottom:20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pAbout1 {
+    padding: 20px;
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+    .titleAbout,
+    .articleAbout,
+    .pArticleAbout,
+    .containerImg,
+    .pAbout1 {
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  

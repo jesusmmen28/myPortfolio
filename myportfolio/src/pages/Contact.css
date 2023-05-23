@@ -1,0 +1,143 @@
+.tituloContact {
+    margin: 20px;
+    text-align: center;
+    
+  }
+
+.contenedorContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+  }
+  
+  .formContact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 90%;
+  
+  }
+  
+  .inputContact {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #312e31;
+    height: 2rem;
+    width: 100%;
+    padding: 5px;
+    font-family: monospace;
+   
+  }
+  
+  .inputContact:focus {
+    border-bottom: 3px solid #312431;
+    background: linear-gradient(to bottom, transparent, #cac6ca);
+  }
+  
+  .inputContact::placeholder {
+    font-family: monospace;
+    font-size: 14px;
+  
+  }
+  
+  .textareaContact {
+    height: 4rem;
+    resize: none;
+  
+  }
+  
+  .divButtonContact {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .buttonContact {
+    background: #312e31;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+  
+  .buttonContact:hover {
+    background-color: #9a8b8b;
+  }
+  
+.titleDatosContacto {
+  margin: 20px;
+  text-align: center;
+  border-top: 2px solid #312e31;
+  padding-top: 20px;
+}
+
+.ulDatosContacto {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  margin-left:20px;
+  font-family: monospace;
+  font-size: 18px;
+  
+}
+
+.telDatosContacto {
+  margin-left: 5px;
+}
+.liDatosContacto a {
+  margin-left: 10px;
+  color: black;
+}
+
+.aDatosContacto {
+  text-decoration: none;
+
+}
+
+.aDatosContacto:hover{
+  color: #9a8b8b;
+}
+
+.aEmailContacto:hover{
+  color: #9a8b8b;
+}
+
+.mensajeContact {
+  text-align: center;
+}
+  .error {
+    color: red;
+    text-align: center;
+    margin: 20px;
+  }
+
+  @media (min-width: 600px) {
+    .contenedorContact {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 600px;
+      margin: 0 auto; 
+    }
+  
+    .formContact {
+    width: 550px; 
+    padding: 20px;
+    margin-left: auto; 
+    margin-right: auto; 
+    }
+  
+    .ulDatosContacto {
+      margin-left: 0;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+  

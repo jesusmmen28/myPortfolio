@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&family=Montserrat:ital,wght@1,100&family=Open+Sans:wght@300&family=Press+Start+2P&family=Roboto&family=Tillana:wght@600;700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor{
+  background-color: #ebe9eb;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+
