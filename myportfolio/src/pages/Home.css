@@ -39,6 +39,30 @@
   transition-delay: 3s;
 }
 
+.ulHome {
+  display: flex;
+  list-style: none;
+  font-family: monospace;
+  font-size: 18px;
+  justify-content: space-evenly;
+  border-bottom:solid 2px var(--primary);
+  padding-bottom: 20px;
+}
+
+.aHome{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.aHome:hover{
+  color:var(--colorHover);
+}
+
+.liHome a {
+  margin-left: 5px;
+}
+
 .animate-text {
   display: flex;
   justify-content: center;
@@ -67,8 +91,9 @@
 .tecnologiasSection {
   opacity: 0;
   transition: opacity 1s ease-in-out;
-  border-top:solid 2px var(--primary);
   margin: 30px 20px 0 20px;
+
+ 
 }
 
 .tecnologiasSection.show {
@@ -109,9 +134,13 @@
     font-size: 22px;
     margin-bottom: 30px;
   }
-  .tecnologiasSection{
-    border: none;
-    margin-top: 10px;
+  .ulHome{
+ 
+    font-size: 22px;
+    gap:60px;
+   
   }
+
+
 }
 

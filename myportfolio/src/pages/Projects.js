@@ -36,7 +36,7 @@ export const Projects = () => {
           </div>
         </div>
         <div className="divProjects">
-          <p>ShareLink es una red social para compartir enlaces.</p>
+          <p>ShareLink es una red social para compartir enlaces. Esta aplicación fue desarrollada con JavaScript, ReactJs, NodeJs, HTML, CCS y SQL.</p>
           <ul className="listaProjects ">
             <li className="liProjects">
               <SiJavascript />
@@ -74,7 +74,7 @@ export const Projects = () => {
           </div>
         </div>
         <div className="divProjects divProjects1">
-          <p>Sitio web de nutrición y fitness.</p>
+          <p>Nutrifit es un sitio web de nutrición y fitness, desarrollado con JavaScript, ReactJs, NodeJs, HTML, CCS y SQL.</p>
           <ul className="listaProjects">
             <li className="liProjects">
               <SiJavascript />

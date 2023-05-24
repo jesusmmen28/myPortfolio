@@ -48,10 +48,9 @@ video {
   }
 
   .divProjects {
-    padding: 20px 20px 0 20px;
+    padding: 30px 20px 0px 20px;
     text-align: center;
     font-family: monospace;
-    font-weight: bold;
     font-size: 18px;
   }
 

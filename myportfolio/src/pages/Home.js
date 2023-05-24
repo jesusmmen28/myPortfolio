@@ -1,10 +1,20 @@
 import React, { useEffect, useState } from "react";
 import "./Home.css";
 import jesus2 from "../assets/images/jesus2..png";
-import { SiJavascript, SiReact, SiNodedotjs, SiPhp, SiLaravel, SiMongodb, SiHtml5, SiCss3 } from "react-icons/si";
+import {
+  SiJavascript,
+  SiReact,
+  SiNodedotjs,
+  SiPhp,
+  SiLaravel,
+  SiMongodb,
+  SiHtml5,
+  SiCss3,
+} from "react-icons/si";
 import { RiVuejsFill } from "react-icons/ri";
 import { FaDatabase } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 export const Home = () => {
   const [showImage, setShowImage] = useState(false);
@@ -40,13 +50,13 @@ export const Home = () => {
   }, []);
 
   return (
-  <>
-    <section>
-      <h2 className="tituloHome">
-        <Link className="linkTituloHome" to={"./sobre-mi"}>
-          Jesús Mendoza
-        </Link>
-      </h2>
+    <>
+      <section>
+        <h2 className="tituloHome">
+          <Link className="linkTituloHome" to={"./sobre-mi"}>
+            Jesús Mendoza
+          </Link>
+        </h2>
         <div className="animate-text">
           {text.split("").map((character, index) => (
             <div>
@@ -58,13 +68,34 @@ export const Home = () => {
         </div>
         {showImage && (
           <img
-            className={`imageHome ${showTechnologies ? "show" : ""}` } 
+            className={`imageHome ${showTechnologies ? "show" : ""}`}
             src={jesus2}
             alt="Imagen"
           />
         )}
       </section>
       <section className={`tecnologiasSection ${showSection ? "show" : ""}`}>
+        {" "}
+        <ul className="ulHome">
+          <li className="liHome">
+            <BsLinkedin />
+            <a
+              href="https://www.linkedin.com/in/jesusmendozaz/"
+              className="aHome"
+            >
+              LinkedIn
+            </a>
+          </li>
+          <li className="liHome">
+            <BsGithub />
+            <a
+              href="https://github.com/jesusmmen28"
+              className="aHome"
+            >
+              GitHub
+            </a>
+          </li>
+        </ul>
         <h2 className="tituloHome">Tecnologías</h2>
         <ul className="listaHome">
           <li>
