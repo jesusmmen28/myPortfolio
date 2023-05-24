@@ -22,12 +22,12 @@
 }
 
 .menu-items li:hover a {
- color: #9a8b8b;
+ color:var(--colorHover);
 }
 
 .menu-items a {
   text-decoration: none;
-  color: white;
+  color: var(--colorLetra);
 }
 
 @media (max-width: 600px) {
@@ -43,7 +43,7 @@
     width: 30px;
     height: 30px;
     cursor: pointer;
-    color: white;
+    color: var(--colorLetra);
   }
 
   .menu-items {
@@ -54,7 +54,6 @@
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: #f5f5f5;
     border: 1px solid #ccc;
     border-radius: 4px;
     padding: 10px;
@@ -62,7 +61,7 @@
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
-    background-color: #312e31;
+    background-color: var(--primary);
   }
 
   .menu.open .menu-items {

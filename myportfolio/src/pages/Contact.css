@@ -24,7 +24,7 @@
   .inputContact {
     border: none;
     outline: none;
-    border-bottom: 2px solid #312e31;
+    border-bottom: 2px solid var(--primary);
     height: 2rem;
     width: 100%;
     padding: 5px;
@@ -33,7 +33,7 @@
   }
   
   .inputContact:focus {
-    border-bottom: 3px solid #312431;
+    border-bottom: 3px solid var(--primary);
     background: linear-gradient(to bottom, transparent, #cac6ca);
   }
   
@@ -58,8 +58,8 @@
   
   
   .buttonContact {
-    background: #312e31;
-    color: white;
+    background: var(--primary);
+    color: var(--colorLetra);
     border: none;
     border-radius: 3px;
     cursor: pointer;
@@ -67,14 +67,13 @@
   }
   
   .buttonContact:hover {
-    background-color: #9a8b8b;
+    background-color: var(--colorHover);
   }
   
 .titleDatosContacto {
-  margin: 20px;
+  margin-top: 30px;
   text-align: center;
-  border-top: 2px solid #312e31;
-  padding-top: 20px;
+  padding: 10px;
 }
 
 .ulDatosContacto {
@@ -102,11 +101,11 @@
 }
 
 .aDatosContacto:hover{
-  color: #9a8b8b;
+  color:var(--colorHover);
 }
 
 .aEmailContacto:hover{
-  color: #9a8b8b;
+  color: var(--colorHover);
 }
 
 .mensajeContact {

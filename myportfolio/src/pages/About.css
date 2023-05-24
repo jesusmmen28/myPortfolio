@@ -20,8 +20,8 @@
 }
 
 .containerImg {
-    border-top: 2px solid #312e31;
-    border-bottom: 2px solid #312e31;
+    border-top: 2px solid var(--primary);
+    border-bottom: 2px solid var(--primary);
     margin: 0 20px 0 20px;
 }
 .imgAbout {

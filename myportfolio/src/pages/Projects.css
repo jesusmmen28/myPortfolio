@@ -43,7 +43,7 @@ video {
   }
 
   .borderProjects {
-    border-top: 2px solid #312e31;
+    border-top: 2px solid var(--primary);
     padding-top: 20px;
   }
 

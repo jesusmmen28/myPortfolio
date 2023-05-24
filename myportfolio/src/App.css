@@ -7,6 +7,13 @@
   box-sizing: border-box;
 }
 
+html {
+  --primary:#312e31;
+  --secondary: #ebe9eb;
+  --colorLetra: white;
+  --colorHover: #9a8b8b;
+}
+
 #root{
   min-height: 100vh;
   display: flex;
@@ -14,7 +21,7 @@
 }
 
 .contenedor{
-  background-color: #ebe9eb;
+  background-color: var(--secondary);
   flex-grow: 1;
   display: flex;
   flex-direction: column;
