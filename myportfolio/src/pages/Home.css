@@ -67,6 +67,8 @@
 .tecnologiasSection {
   opacity: 0;
   transition: opacity 1s ease-in-out;
+  border-top:solid 2px var(--primary);
+  margin: 30px 20px 0 20px;
 }
 
 .tecnologiasSection.show {
@@ -107,6 +109,9 @@
     font-size: 22px;
     margin-bottom: 30px;
   }
- 
+  .tecnologiasSection{
+    border: none;
+    margin-top: 10px;
+  }
 }
 
